@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: proximanova;
+}
+
+@font-face{
+    src:url(.././webfont/proximanova-regular.otf);
+    font-family: proximanova;
+}
+
+ul{
+    list-style: none;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.mb-17{
+    margin-bottom: 17px;
+}
+
+.mt-47{
+    margin-top: 47px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mb-37{
+    margin-bottom: 37px;
+}
+
+.mt-17{
+    margin-top: 17px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+hr{
+    margin: 1rem 0;
+    border: 1px solid #e5e5e5;
+}
+
+.sticky{
+    position: sticky;
+    top:0;
+    height: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.justify-space-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+    height: 100%;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-coloumn{
+    flex-direction: column;
+}
+
+.center{
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #32323E;
+    padding:8px 50px 7px 45px;
+    height: 70px;
+}
+
+header .search{
+    position: relative;
+}
+
+header .search input{
+    width: 630px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+header .search img{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+}
+
+header .login ul{
+    color:#fff;
+}
+
+header .login ul li:nth-child(1){
+    margin-right:10px ;
+}
+
+header .login sup{
+    background-color: #00a1ff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 2px;
+    top: -7px;
+    position: relative;
+    right: 9px;
+}
+
+.Main-section{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Main-section .one , .Main-section .three{
+    width: 100%;
+    flex: 0 0 300px;
+    
+}
+
+.Main-section .second{
+    width: 100%;
+    flex: 0 0 1000px;
+    background-color: #FAFAFA;
+}
+
+.centerSec{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 44px;
+}
+
+
+
+.Trendingfeeds{
+    padding:50px;
+    padding-top:35px;
+}
+
+.Trendingfeeds .d-grid{
+    display: grid;
+    grid:95px / auto auto;
+    grid-gap:10px
+}
+
+.Fashionworld{
+    padding: 25px;
+    border-bottom: 1px solid #FAFAFA;
+    height: auto;
+    padding-top: 30px;
+}
+
+.Fashionworld img{
+    width: 100%;
+    max-width:120px;
+}
+
+.Fashionworld ul li{
+    font-weight: bold;
+    padding: 0 15px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.Fashionworld ul li span{
+    font-weight: 100;
+    font-size: 12px;
+    color: #6c6a6a;
+    display: block;
+}
+
+.Fashionworld p{
+    color: #8b8a8a;
+}
+
+.feed ul li {
+    padding: 10px 27px;
+    padding-left: 55px;
+    border-left: 3px solid transparent;
+    height: 42px;
+}
+
+.feed ul li:hover,.feed ul .active{
+    color:#039ce0;
+    border-left:3px solid #039ce0;
+}
+
+.feed ul li:hover a{
+    color:#039ce0;
+}
+
+.feed ul li svg{
+    margin-right:10px;
+}
+
+.Recentfollowers .slider-arrows{
+    width: 40px;
+}
+
+.Recentfollowers .slider-arrows .fa-arrow-left{
+    color: #6c6a6a;
+}
+
+.Recentfollowers .recentFollowersPro img{
+    width: 124px;
+    height: 124px;
+    margin: 0 auto;
+    display: block;
+}
+
+.Recentfollowers .recentFollowersPro .item{
+    text-align: center;
+}
+
+.Recentfollowers .recentFollowersPro .item span{
+    margin-top: 10px;
+    display: inline-block;
+    color: #878686;
+}
+
+.Discovered > .item{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #0000000d;
+}
+
+.Discovered .option .fa-ellipsis{
+    color:#878686;
+    font-size:18px ;
+}
+
+.Discovered .discoveredItemProfile img{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.Discovered .discoveredItem img{
+    width: 100%;
+}
+
+.Discovered .discoveredItemProfile .timing{
+    color: #878686;
+}
+
+.Discovered .discoveredItemText h4{
+    font-size: 20px;
+}
+
+.Discovered .discoveredItemText p{
+    font-size: 14px;
+    color: #878686;
+}
+
+.wishComment svg{
+    color: #878686;
+}
+
+.wishcm{
+    width: 200px;
+}
+
+.suggested img{
+    margin-right: 10px;
+}
+
+.suggested .item{
+    margin:10px 0
+}
